@@ -94,7 +94,7 @@ def outputfile2(model,device,img,weightsmat,output = 'raw',average=False,prob_la
         transformlist = range(8)
 
     for tr in transformlist:# do the folowing 8 times averaging the outputs
-        trimg = all_transform(np.squeeze(img),tr)
+        trimg = all_transform(np.squeeze(img.numpy()),tr)
         tmg = torch.tensor(trimg.copy()).float()
 
         if len(tmg.size()) == 2:    #if single band 
