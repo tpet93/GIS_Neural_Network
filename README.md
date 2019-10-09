@@ -1,8 +1,8 @@
 # GIS U-Net
 
 A Workflow for applying a Convolutional Neural Network to Geospatial data.
-Input data is a multi layer GeoTiff.
-Output data is a geotiff, this demo is semantic segmentation, however regression is also possible.
+Input data is a multi layer geotiff, output data is a geotiff.
+This demo is semantic segmentation, however regression is also possible.
 
 
 
