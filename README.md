@@ -4,6 +4,10 @@ A Workflow for applying a Convolutional Neural Network to Geospatial data.
 Input data is a multi layer geotiff, output data is a geotiff.
 This demo is semantic segmentation, however regression is also possible.
 
+If using this code for research, please cite  
+[![DOI](https://zenodo.org/badge/213701577.svg)](https://zenodo.org/badge/latestdoi/213701577)
+
+
 
 
 ## How to use
